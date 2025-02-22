@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="m-0 p-0 font-serif">
+    <div class="bg-stone-600 h-screen w-full flex items-center justify-center flex-col gap-2">
+        <div id="pageContent" class="flex items-center justify-center font-thin text-[24px] bg-stone-900  text-white h-64 w-[40rem] p-3 border-solid border-stone-400 border-[2px]">
+            This is page 1
+        </div>
+        <div class="pagination ">
+            <button class="previousBtn cursor-pointer  bg-stone-800 text-white py-1 px-3 disabledvtext-white border-stone-400 border-solid border-[2px] hover:bg-stone-700">&laquo</button>
+            
+            <button class="pageBtn  hover:bg-stone-700 cursor-pointer pagebtn bg-stone-800 py-1 px-3 text-white  border-stone-400 border-solid border-[2px]">1</button>
+            <button class="pageBtn cursor-pointer  hover:bg-stone-700 pagebtn bg-stone-800 py-1 px-3 text-white  border-stone-400 border-solid border-[2px]">2</button>
+            <button class="pageBtn cursor-pointer  hover:bg-stone-700 pagebtn bg-stone-800 py-1 px-3 text-white  border-stone-400 border-solid border-[2px]">3</button>
+            <button class="pageBtn cursor-pointer  hover:bg-stone-700 pagebtn bg-stone-800 py-1 px-3 text-white  border-stone-400 border-solid border-[2px]">4</button>
+            
+            <button class="nextBtn cursor-pointer  hover:bg-stone-700 previousBtn bg-stone-800 py-1 px-3 text-white  border-stone-400 border-solid border-[2px]">&raquo</button>
+        </div> 
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
